@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 import time
 from flask import Flask, render_template, request, redirect, url_for
 
+##
 # GPIO setup
 SERVO_PIN = 17  # GPIO pin connected to the servo motor
 BUTTON_LOCK_PIN = 27  # GPIO pin for lock button
